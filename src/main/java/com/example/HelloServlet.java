@@ -20,6 +20,7 @@ public class HelloServlet extends HttpServlet {
         out.write("Hello Heroku".getBytes());
         out.flush();
         out.close();
+        //test
     }
     
 }
